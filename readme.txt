@@ -1,3 +1,7 @@
+Composite is based on the principle that the composite element broadcasts a message to all of it’s components, 
+which are all the same interface as itself.
+Thus we can say: Composite ≈ collection + polymorphic broadcast
+
 Applied Composite Pattern:
 	- Created an Abstract Class Component
 		- implements the computePrice method, and holds a list (Vector) of Component
